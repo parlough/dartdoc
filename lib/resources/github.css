@@ -1,99 +1,164 @@
-/*
+/*!
+  Based off of: https://github.com/highlightjs/highlight.js
 
-github.com style (c) Vasily Polovnyov <vast@whiteants.net>
-
+  Theme: GitHub Light and Dark Dimmed Themes
+  Description: Light and dark dimmed themes as seen on github.com
+  Author: github.com
+  Maintainer: @Hirse
+  Updated: 2021-05-15
+  Outdated base version: https://github.com/primer/github-syntax-light
+  Current colors taken from GitHub's CSS
 */
+
+:root {
+  --hl-base-color: #24292e;
+  --hl-background: #ffffff;
+
+  --hl-keyword: #d73a49;
+  --hl-entity: #6f42c1;
+  --hl-constant: #005cc5;
+  --hl-variable: #e36209;
+
+  --hl-string: #032f62;
+  --hl-comment: #6a737d;
+  --hl-entity-tag: #22863a;
+  --hl-import: #24292e;
+
+  --hl-list: #eac55f;
+  --hl-italic: #adbac7;
+  --hl-bold: #adbac7;
+  --hl-inserted: #b4f1b4;
+  --hl-inserted-background: #1b4721;
+  --hl-deleted: #ffd8d3;
+  --hl-deleted-background: #78191b;
+}
+
+[data-theme="dark"] {
+  --hl-base-color: #adbac7;
+  --hl-background: #22272e;
+
+  --hl-keyword: #f47067;
+  --hl-entity: #dcbdfb;
+  --hl-constant: #6cb6ff;
+  --hl-variable: #f69d50;
+
+  --hl-string: #96d0ff;
+  --hl-comment: #768390;
+  --hl-entity-tag: #8ddb8c;
+
+  --hl-import: #adbac7;
+  --hl-heading: #316dca;
+
+  --hl-list: #735c0f;
+  --hl-italic: #24292e;
+  --hl-bold: #24292e;
+  --hl-inserted: #22863a;
+  --hl-inserted-background: #f0fff4;
+  --hl-deleted: #b31d28;
+  --hl-deleted-background: #ffeef0;
+}
 
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #333;
-  background: #f8f8f8;
+
+  color: var(--hl-base-color);
+  background: var(--hl-background);
 }
 
-.hljs-comment,
-.hljs-quote {
-  color: #998;
-  font-style: italic;
-}
-
+.hljs-doctag,
 .hljs-keyword,
-.hljs-selector-tag,
-.hljs-subst {
-  color: #333;
-  font-weight: bold;
-}
-
-.hljs-number,
-.hljs-literal,
-.hljs-variable,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
 .hljs-template-variable,
-.hljs-tag .hljs-attr {
-  color: #008080;
-}
-
-.hljs-string,
-.hljs-doctag {
-  color: #d14;
+.hljs-type,
+.hljs-variable.language_ {
+  color: var(--hl-keyword);
 }
 
 .hljs-title,
-.hljs-section,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
+  color: var(--hl-entity);
+}
+
+.hljs-attr,
+.hljs-attribute,
+.hljs-literal,
+.hljs-meta,
+.hljs-number,
+.hljs-operator,
+.hljs-variable,
+.hljs-selector-attr,
+.hljs-selector-class,
 .hljs-selector-id {
-  color: #900;
-  font-weight: bold;
-}
-
-.hljs-subst {
-  font-weight: normal;
-}
-
-.hljs-type,
-.hljs-class .hljs-title {
-  color: #458;
-  font-weight: bold;
-}
-
-.hljs-tag,
-.hljs-name,
-.hljs-attribute {
-  color: #000080;
-  font-weight: normal;
+  color: var(--hl-constant);
 }
 
 .hljs-regexp,
-.hljs-link {
-  color: #009926;
-}
-
-.hljs-symbol,
-.hljs-bullet {
-  color: #990073;
+.hljs-string,
+.hljs-meta .hljs-string {
+  color: var(--hl-string);
 }
 
 .hljs-built_in,
-.hljs-builtin-name {
-  color: #0086b3;
+.hljs-symbol {
+  color: var(--hl-variable);
 }
 
-.hljs-meta {
-  color: #999;
+.hljs-comment,
+.hljs-code,
+.hljs-formula {
+  color: var(--hl-comment);
+}
+
+.hljs-name,
+.hljs-quote,
+.hljs-selector-tag,
+.hljs-selector-pseudo {
+  color: var(--hl-entity-tag);
+}
+
+.hljs-subst {
+  color: var(--hl-import);
+}
+
+.hljs-section {
+  color: var(--hl-heading);
   font-weight: bold;
 }
 
-.hljs-deletion {
-  background: #fdd;
-}
-
-.hljs-addition {
-  background: #dfd;
+.hljs-bullet {
+  color: var(--hl-list);
 }
 
 .hljs-emphasis {
+  color: var(--hl-italic);
   font-style: italic;
 }
 
 .hljs-strong {
+  color: var(--hl-bold);
   font-weight: bold;
+}
+
+.hljs-addition {
+  color: var(--hl-inserted);
+  background-color: var(--hl-inserted-background);
+}
+
+.hljs-deletion {
+  color: var(--hl-deleted);
+  background-color: var(--hl-deleted-background);
+}
+
+.hljs-char.escape_,
+.hljs-link,
+.hljs-params,
+.hljs-property,
+.hljs-punctuation,
+.hljs-tag {
+  /* purposely ignored */
 }

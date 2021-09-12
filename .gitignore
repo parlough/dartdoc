@@ -15,6 +15,10 @@ pub.dartlang.org/
 testing/test_package/doc
 testing/test_package_small/doc
 pubspec.lock
+.firebase
+.firebaserc
+firebase.json
+public/
 
 *.dart.js
 *.iml

@@ -24,8 +24,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="{{^useBaseHref}}%%__HTMLBASE_dartdoc_internal__%%{{/useBaseHref}}static-assets/github.css">
-  <link rel="stylesheet" href="{{^useBaseHref}}%%__HTMLBASE_dartdoc_internal__%%{{/useBaseHref}}static-assets/styles.css">
+  <link rel="stylesheet" href="{{^useBaseHref}}%%__HTMLBASE_dartdoc_internal__%%{{/useBaseHref}}static-assets/github?v2.css">
+  <link rel="stylesheet" href="{{^useBaseHref}}%%__HTMLBASE_dartdoc_internal__%%{{/useBaseHref}}static-assets/styles?v2.css">
   <link rel="icon" href="{{^useBaseHref}}%%__HTMLBASE_dartdoc_internal__%%{{/useBaseHref}}static-assets/favicon.png">
 
   {{{ customHeader }}}
@@ -54,9 +54,12 @@
     {{/hasHomepage}}
   </ol>
   <div class="self-name">{{self.name}}</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>

@@ -335,12 +335,12 @@ String _renderCategory_partial_head_0(_i1.CategoryTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -419,9 +419,12 @@ String _renderCategory_partial_head_0(_i1.CategoryTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -1372,7 +1375,7 @@ String _renderCategory_partial_footer_11(_i1.CategoryTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -1829,12 +1832,12 @@ String _renderClass_partial_head_0(_i1.ClassTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -1913,9 +1916,12 @@ String _renderClass_partial_head_0(_i1.ClassTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -2316,7 +2322,7 @@ String _renderClass_partial_footer_9(_i1.ClassTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -2491,12 +2497,12 @@ String _renderConstructor_partial_head_0(_i1.ConstructorTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -2575,9 +2581,12 @@ String _renderConstructor_partial_head_0(_i1.ConstructorTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -2754,7 +2763,7 @@ String _renderConstructor_partial_footer_6(
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -3081,12 +3090,12 @@ String _renderEnum_partial_head_0(_i1.EnumTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -3165,9 +3174,12 @@ String _renderEnum_partial_head_0(_i1.EnumTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -3568,7 +3580,7 @@ String _renderEnum_partial_footer_9(_i1.EnumTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -3688,12 +3700,12 @@ String _renderError_partial_head_0(_i1.PackageTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -3772,9 +3784,12 @@ String _renderError_partial_head_0(_i1.PackageTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -3957,7 +3972,7 @@ String _renderError_partial_footer_3(_i1.PackageTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -4240,12 +4255,12 @@ String _renderExtension_partial_head_0<T extends _i13.Extension>(
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -4324,9 +4339,12 @@ String _renderExtension_partial_head_0<T extends _i13.Extension>(
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -4741,7 +4759,7 @@ String _renderExtension_partial_footer_9<T extends _i13.Extension>(
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -4885,12 +4903,12 @@ String _renderFunction_partial_head_0(_i1.FunctionTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -4969,9 +4987,12 @@ String _renderFunction_partial_head_0(_i1.FunctionTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -5225,7 +5246,7 @@ String _renderFunction_partial_footer_8(_i1.FunctionTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -5398,12 +5419,12 @@ String _renderIndex_partial_head_0(_i1.PackageTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -5482,9 +5503,12 @@ String _renderIndex_partial_head_0(_i1.PackageTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -5736,7 +5760,7 @@ String _renderIndex_partial_footer_5(_i1.PackageTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -6121,12 +6145,12 @@ String _renderLibrary_partial_head_0(_i1.LibraryTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -6205,9 +6229,12 @@ String _renderLibrary_partial_head_0(_i1.LibraryTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -7017,7 +7044,7 @@ String _renderLibrary_partial_footer_13(_i1.LibraryTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -7161,12 +7188,12 @@ String _renderMethod_partial_head_0(_i1.MethodTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -7245,9 +7272,12 @@ String _renderMethod_partial_head_0(_i1.MethodTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -7496,7 +7526,7 @@ String _renderMethod_partial_footer_8(_i1.MethodTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -7887,12 +7917,12 @@ String _renderMixin_partial_head_0(_i1.MixinTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -7971,9 +8001,12 @@ String _renderMixin_partial_head_0(_i1.MixinTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -8374,7 +8407,7 @@ String _renderMixin_partial_footer_9(_i1.MixinTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -8534,12 +8567,12 @@ String _renderProperty_partial_head_0(_i1.PropertyTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -8618,9 +8651,12 @@ String _renderProperty_partial_head_0(_i1.PropertyTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -9057,7 +9093,7 @@ String _renderProperty_partial_footer_10(_i1.PropertyTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -9654,12 +9690,12 @@ String _renderTopLevelProperty_partial_head_0(
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -9738,9 +9774,12 @@ String _renderTopLevelProperty_partial_head_0(
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -10201,7 +10240,7 @@ String _renderTopLevelProperty_partial_footer_11(
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
@@ -10349,12 +10388,12 @@ String _renderTypedef_partial_head_0(_i1.TypedefTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/github.css?v1">
+  buffer.write('''static-assets/github.css?v2">
   <link rel="stylesheet" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/styles.css?v1">
+  buffer.write('''static-assets/styles.css?v2">
   <link rel="icon" href="''');
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
@@ -10433,9 +10472,12 @@ String _renderTypedef_partial_head_0(_i1.TypedefTemplateData context0) {
   <div class="self-name">''');
   buffer.writeEscaped(context0.self.name.toString());
   buffer.write('''</div>
-  <form class="search navbar-right" role="search">
-    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
-  </form>
+  <div class="navbar-right">
+    <form class="search" role="search">
+      <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+    </form>
+    <div title="Switch themes" id="theme-switcher"></div>
+  </div>
 </header>
 
 <main>
@@ -10736,7 +10778,7 @@ String _renderTypedef_partial_footer_8(_i1.TypedefTemplateData context0) {
   if (context0.useBaseHref != true) {
     buffer.write('''%%__HTMLBASE_dartdoc_internal__%%''');
   }
-  buffer.write('''static-assets/script.js?v1"></script>
+  buffer.write('''static-assets/script.js?v2"></script>
 
 ''');
   buffer.write(context0.customFooter.toString());
