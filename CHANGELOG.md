@@ -1,3 +1,7 @@
+## 8.0.15-wip
+
+* Require Dart 3.4.0 or later.
+
 ## 8.0.14
 
 * Library elements are now deduplicated in Dartdoc's model. This should be a

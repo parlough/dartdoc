@@ -1,10 +1,10 @@
 name: dartdoc
-version: 8.0.14
+version: 8.0.15-wip
 description: A non-interactive HTML documentation generator for Dart source code.
 repository: https://github.com/dart-lang/dartdoc
 
 environment:
-  sdk: ^3.2.0
+  sdk: ^3.4.0
 
 dependencies:
   analyzer: ^6.5.0
